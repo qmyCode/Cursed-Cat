@@ -1,0 +1,174 @@
+body {
+  font-family: "roboto", arial;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: #ffffff;
+  height: 700px;
+}
+a {
+  text-decoration: none;
+}
+.nav-Container {
+  display: flex;
+  margin-top: 2px auto;
+  padding: 5px;
+  padding-bottom: 0px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between; /*mengatur item agar di kanan dan dikiri */
+  align-items: center;
+  background-color: #1f2937;
+}
+
+#navLink li {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  height: auto;
+  align-items: center;
+  line-height: 100px;
+  font-size: 20px;
+}
+#navLink {
+  padding-right: 15px;
+  margin-right: 100px;
+}
+/*anchor behavior*/
+#navLink a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+/*anchor behavior*/
+img.navbarLogo {
+  width: 100px;
+  height: 100px;
+  padding-left: 15px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.prevDash {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+img.dashboardPic {
+  width: 500px;
+  height: 350px;
+  margin-right: 200px;
+}
+
+.dashKet {
+  color: white;
+  margin-left: 200px;
+  margin-right: 20px;
+}
+
+.dashKet h1 {
+  font-size: 60px;
+}
+.joinButton {
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.joinButton:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px #f3f3f31e;
+}
+
+.joinButton:active {
+  background-color: #3881f66b;
+}
+
+.prevDash {
+  background-color: #1f2937;
+  height: 500px;
+}
+
+.cursedType {
+  display: flex;
+  justify-content: center;
+}
+.containerCat {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.containerCat img {
+  height: 200px;
+  width: 200px;
+  border-radius: 7px;
+  border: 3px #3882f6 solid;
+}
+.keteranganContanerCat {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.quote {
+  padding-top: 3px;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(161, 161, 161, 0.425);
+}
+
+#quotes {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 50;
+}
+#quoter {
+  text-align: end;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+.atasFooter {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 7px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+.atasFooter button {
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: #3882f6;
+  font-size: 16px;
+}
+.footer {
+  height: 35px;
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+}
+.footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-top: 10px;
+}
